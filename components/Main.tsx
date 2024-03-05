@@ -12,7 +12,7 @@ const Main = () => {
             backgroundImage: "url(./group-three-friends-enjoying-burgers.jpg)",
           }}
         ></div>
-        <div className="sm:pl-32 pt-20 pl-8 sm:pt-60 relative z-10">
+        <div className="sm:pl-32 pt-40 pl-8 sm:pt-60 relative z-10 ">
           <motion.h1
             initial={{ x: "-100%", opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
