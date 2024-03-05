@@ -13,7 +13,7 @@ type Props = {
 const SingleItem = ({ itemNum, burgerSrc, price, title }:Props) => {
   return (
     <motion.div
-      className="bg-white sm:w-[30%] p-4 rounded-3xl shadow overflow-hidden my-4 sm:m-4"
+      className="bg-white w-full sm:w-[30%] p-4 rounded-3xl shadow overflow-hidden my-4 sm:m-4"
       initial={{ x: "-110%", opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ delay: 0.1 }}
